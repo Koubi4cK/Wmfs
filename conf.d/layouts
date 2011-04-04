@@ -15,17 +15,17 @@
         keep_layout_geo = true
 
         # Tiling layouts.
-        [layout] type = "tile_right"         symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/tr.png]\"    [/layout]
-        [layout] type = "tile_left"          symbol =  "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/tl.png]\"    [/layout]
-        [layout] type = "tile_top"           symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/tt.png]\"    [/layout]
-        [layout] type = "tile_bottom"        symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/tb.png]\"    [/layout]
-        [layout] type = "tile_grid"          symbol =  "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/tg.png]\"    [/layout]
-        [layout] type = "tile_grid_vertical" symbol =  "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/la.png]\"    [/layout]
-        [layout] type = "mirror_vertical"    symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/mv.png]\"    [/layout]
-        [layout] type = "mirror_horizontal"  symbol =  "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/mh.png]\"    [/layout]
+        [layout] type = "tile_right"         symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/tr.png]\"    [/layout]
+        [layout] type = "tile_left"          symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/tl.png]\"    [/layout]
+        [layout] type = "tile_top"           symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/tt.png]\"    [/layout]
+        [layout] type = "tile_bottom"        symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/tb.png]\"    [/layout]
+        [layout] type = "tile_grid"          symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/tg.png]\"    [/layout]
+        [layout] type = "tile_grid_vertical" symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/la.png]\"    [/layout]
+        [layout] type = "mirror_vertical"    symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/mv.png]\"    [/layout]
+        [layout] type = "mirror_horizontal"  symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/mh.png]\"    [/layout]
 
         # Other layouts.
-        [layout] type = "max"   symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/max.png]\"    [/layout]
-        [layout] type = "free"  symbol =  "       \i[13;2;11;11;/home/koub/.config/wmfs/conf.d/img/fr.png]\"    [/layout]
+        [layout] type = "max"   symbol = "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/max.png]\"    [/layout]
+        [layout] type = "free"  symbol =  "       \i[13;2;11;11;/home/koub/.config/wmfs/img/tags/fr.png]\"    [/layout]
 
 [/layouts]

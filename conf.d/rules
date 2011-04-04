@@ -1,0 +1,68 @@
+[rules]
+    
+     [rule]	#Gnome-mplayer
+	class		= "Gnome-mplayer"	# First part of WM_CLASS
+        
+	
+        free		= true              # Set automatic free client
+        max	        = false              # Set automatic maximized client
+    [/rule]
+    
+    [rule]	#Mplayer
+	class		= "MPlayer"	# First part of WM_CLASS
+        instance	= "xv"	        # Seconf part of WM_CLASS, not needed if first part is correct
+	tag		= 4                  # Tag number of apps
+        free		= true              # Set automatic free client
+        max	        = false              # Set automatic maximized client
+    [/rule]
+    
+    [rule]	#Vlc
+	class		= "Vlc"
+	instance	= "xv"
+	tag		= 3
+	free		= true
+	max		= false
+    [/rule]
+
+    [rule]	#Download box for Fx
+	instance	= "Download" 
+        free		= true 
+    [/rule]
+    [rule]
+	class		= "Namoroka"
+	tag		= 1
+	max		= false
+    [/rule]
+    
+    [rule]	#Firefox
+	class		="Firefox"
+	tag		= 1
+	max		= false 
+   [/rule]
+   
+       [rule]	#Emesene
+	class		="emesene"
+	tag		= 4
+	free		= true
+	max		= false
+   [/rule]
+   
+    [rule]	#Chromium
+        class		= "Chromium"
+        screen		= 0
+        tag		= 1
+    [/rule]
+
+    [rule]	#Feh
+	class		= "feh"
+	free		= true
+    [/rule]
+    
+    [rule]	#Pidgin
+	class		= "Pidgin"
+	tag		= 4
+	free		= true
+    [/rule] 
+
+
+[/rules]

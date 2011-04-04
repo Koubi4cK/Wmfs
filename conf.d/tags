@@ -1,0 +1,95 @@
+﻿[tags]
+     [default_tag]
+        name	       = "new_tag"
+	mw_fact	       = 0.5
+	nmaster        = 1
+	layout         = "tile_right"
+	rezisehint     = false
+	infobar_position = "top"
+    [/default_tag]
+     
+        tag_round      = false
+        occupied_bg    = "#232323"
+        sel_fg         = "#FFFFFF"
+        sel_bg         = "#587aa4"
+        urgent_bg      = "#DD1111"
+        urgent_fg      = "#000000"
+        # If true, number of the tag will be used for name
+        name_count     = false
+        #default_name   = "new tag" # default name for a new tag
+        #default_layout = "tile_right"
+
+        # Border around the tag buttons.
+        border      = false
+
+        # Hide empty tags in tag list
+        autohide    = false
+
+        # Mouse buttons action on tag.
+        mouse_button_tag_sel       = "1"
+        mouse_button_tag_transfert = "2"
+        mouse_button_tag_add       = "3"
+        mouse_button_tag_next      = "4"
+        mouse_button_tag_prev      = "5"
+
+        [tag]
+                name             	  = "Www"
+                screen           	  = 0
+                mwfact           	  = 0.55
+                nmaster          	  = 1
+                layout           	  = "tile_right"
+                resizehint       	  = false
+                infobar_position	  = "top"
+		clients		  	  = {chromium,firefox,midori}
+        [/tag]
+#       [tag]
+#               name             	  = "Dev"
+#               screen           	  = 0
+#               mwfact           	  = 0.55
+#               nmaster          	  = 1
+#               layout           	  = "tile_right"
+#               resizehint       	  = false
+#               infobar_position  = "top"
+#       [/tag]
+        [tag]
+                name             	  = "Ssh"
+                screen           	  = 0
+                mwfact           	  = 0.55
+                nmaster          	  = 1
+                layout           	  = "tile_right"
+                resizehint       	  = false
+                infobar_position	  = "top"
+		clients			  = {ario}
+        [/tag]
+				[tag]
+                name             	  = "Media"
+                screen           	  = 0
+                mwfact           	  = 0.875
+                nmaster          	  = 1
+                layout           	  = "free"
+                resizehint       	  = false
+                infobar_position 	  = "top"
+		clients                   = {gimp}
+        [/tag]
+        [tag]
+                name             	  = "Im"
+                screen           	  = 0
+                mwfact           	  = 0.55
+                nmaster          	  = 1
+                layout           	  = "free"
+                resizehint       	  = false
+                infobar_position 	  = "top"
+		clients			  = {emesene}
+        [/tag]
+        [tag]
+                name             	= "Shell"
+                screen           	= 0
+                mwfact           	= 0.55
+                nmaster          	= 1
+                layout           	= "tile_right"
+                resizehint       	= false
+                infobar_position 	= "top"
+
+                #[mouse] [/mouse] Possible multi mouse section
+        [/tag]
+[/tags]

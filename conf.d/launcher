@@ -1,0 +1,14 @@
+[launcher]
+        [set_launcher]
+                name = "launcher_exec"
+                prompt = "Exec: "
+                command = "exec"
+        [/set_launcher]
+
+        #ViWMFS : manage wmfs with vi-based command.
+        [set_launcher]
+                name = "viwmfs"
+                prompt = "> "
+                command = "wmfs -V"
+        [/set_launcher]
+[/launcher]
